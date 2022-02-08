@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap");
+body {
+  background-color: hsl(217, 54%, 11%) !important;
+  font-family: "Outfit" !important;
+}
+h1,
+h2,
+h3,
+.request-count {
+  color: white;
+  font-family: "Outfit" !important;
+}
+.title {
+  text-align: center !important;
+  margin-bottom: 50px;
+}
+.custom-button {
+  background: hsl(178, 100%, 50%) !important;
+  color: #14253d !important;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0 60px 0;
+}
+.ui.menu {
+  background-color: #14253d !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  backdrop-filter: blur(10px) !important;
+  margin-bottom: 50px !important;
+  padding: 5px 0;
+}
+.item {
+  color: white !important;
+}
+.plus::before {
+  background: hsl(215, 32%, 27%) !important;
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+  padding: 20px;
+  border-radius: 10px;
+  &-image {
+    width: 100%;
+  }
+  &-title {
+    font-weight: 400;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+  }
+  &-address {
+    font-weight: 300;
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+    overflow-wrap: break-word;
+    padding-bottom: 30px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+  }
+  &-link {
+    color: hsl(178, 100%, 50%);
+  }
+}
+
+.ui.label {
+  background-color: rgb(31 51 79) !important;
+  color: #ffffff9c !important;
+  font-weight: 300 !important;
+}
+
+.ui.table tr.positive {
+  background: #14253d !important;
+  color: #2c662d !important;
+}
+
+.address-cell {
+  max-width: 20vw;
+  overflow-wrap: break-word;
+}
+
+.back {
+  color: #8bacda;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  cursor: pointer;
+}
+.back p {
+  margin: 0 0 0 10px;
+}
+.back img {
+  min-height: 24px !important;
+  height: 24px !important;
+  margin: 0 !important;
+}
+.campain-details > .card {
+  width: 20vw !important;
+  min-width: 170px !important;
+  background-color: #14253d !important;
+  box-shadow: none !important;
+}
+.campain-details > .card > .content > .header {
+  color: white !important;
+  font-family: "Outfit" !important;
+  font-weight: 400 !important;
+}
+
+.campain-details > .card > .content > .meta {
+  font-weight: 200 !important;
+  font-size: 14px !important;
+  color: #b5bbc2 !important;
+}
+.campain-details > .card > .content > .description {
+  font-weight: 300 !important;
+  font-size: 16px !important;
+  color: #8bacda !important;
+}
+.ui.grid > .row {
+  padding-bottom: 0 !important;
+}
+.request-label {
+  color: #c8c7c7 !important;
+  font-size: 0.9em !important;
+  font-weight: 300 !important;
+}
+@media (max-width: 767px) {
+  .address-cell {
+    max-width: 90vw;
+  }
+}
